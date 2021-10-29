@@ -1,2 +1,2 @@
 # jb
-template generator
+Template generator
