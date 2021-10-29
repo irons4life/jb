@@ -43,11 +43,9 @@ function addTask(e){
   document.querySelector("#two").appendChild(txtcontent)
 
 
-  setTimeout(()=>{window.location.reload()},20000)
+  setTimeout(()=>{window.location.reload()},30000)
   
   e.preventDefault()
   
-  
-
  
 }
