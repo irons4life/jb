@@ -1,17 +1,20 @@
 body{
-    padding-top: 35px;
-    padding-left: 30px;
-    color:rgb(46, 157, 248);
-    background-color:rgb(90, 90, 90);
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 50px;
+    padding-left: 60px;
+    color:rgb(117, 255, 135);
+    background-color:rgb(56, 56, 56);
+    font-weight: bolder;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 a{
-    color:rgb(107, 243, 65);
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    opacity: 0;
 }
 label{
     padding-left: 20px;
+    line-height: 28px;
+    font-size: 16px;
+    
 }
 img{
     block-size: 3em;
@@ -21,7 +24,11 @@ div{
     padding-top: 20px;
    
 }
-
+#btn{
+    padding: 2px 8px 2px 8px;
+    font-size: 15px;
+    font-weight: bold;
+}
 #email,#btn{
     border-radius: 10px;
     border-width: 0.3em;
@@ -39,15 +46,21 @@ padding-bottom: 20px;
 }
 
 input{ 
-border-radius: 20px;
+font-weight: bold;
+border-radius: 12px;
 color:rgb(15, 15, 15);
 background-color: rgb(255, 255, 255);
 display: inline-block;
-float: left; 
+margin-right: 10px;
+float:left;
+}
+
+::placeholder{
+font-weight: lighter;
 }
 
 label{
-font-weight: lighter;
+font-weight:lighter;
 }
 
 #truck{
@@ -55,7 +68,7 @@ font-weight: lighter;
     animation-name: truck;
     animation-duration: 12000ms;
     animation-iteration-count: infinite;   
-    display:none;
+    display: none;
 
     
 }

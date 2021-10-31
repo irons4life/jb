@@ -40,12 +40,12 @@ function addTask(e){
   " *** "+"Description (Confirm "+pudel+")"+" *** "+"Customer: "+customer.value.toUpperCase()+"&cc="+cc.value.trim()+"&body="+"%0D%0AGood morning,%0D%0A%0D%0A%0D%0AI am checking in to get an update on this load: %0D%0A%0D%0APickup appt date and time: "+ pudate.value+"%0D%0ADelivery appt date and time: "+deldate.value+"%0D%0A%0D%0A"+pudelbody+" If you have the 360 APP feel free to update the location or in and out times of your load. Otherwise reply this email with the information and we'll do it for you. Also please provide the electronic logging device number if available.%0D%0A%0D%0A")
 
   txtcontent.appendChild(link)
-  document.querySelector("#two").appendChild(txtcontent)
+  document.querySelector("#four").appendChild(txtcontent)
+  document.querySelector("a").click();
 
 
-  setTimeout(()=>{window.location.reload()},30000)
+  setTimeout(()=>{window.location.reload()},300)
   
   e.preventDefault()
   
- 
 }
