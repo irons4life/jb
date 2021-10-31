@@ -9,6 +9,7 @@ body{
 
 a{
     opacity: 0;
+    font-size: xx-small;
 }
 label{
     padding-left: 20px;
