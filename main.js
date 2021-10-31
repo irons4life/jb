@@ -21,8 +21,8 @@ function addTask(e){
  
   const txtcontent=document.createElement("h4")
   const link=document.createElement("a")
-  link.appendChild(document.createTextNode(`<i>Your template for load ${load.value} is ready. Click here`))
-  link.innerHTML=`<img src='./icon.png'></img><i> Load # ${load.value.toUpperCase()}</i>`
+  link.appendChild(document.createTextNode(`<i> load ${load.value} is ready. Click here`))
+  link.innerHTML=`Load # ${load.value.toUpperCase()}</i>`
   document.getElementsByName("pudel").forEach(radio=>{
     if(radio.checked){
       pudel=radio.value;
