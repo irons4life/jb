@@ -18,7 +18,7 @@ function loadEventListeners(){
 }
 
 function addTask(e){
- 
+
   const txtcontent=document.createElement("h4")
   const link=document.createElement("a")
   link.appendChild(document.createTextNode(`<i> load ${load.value} is ready. Click here`))
@@ -42,7 +42,6 @@ function addTask(e){
   txtcontent.appendChild(link)
   document.querySelector("#btn").appendChild(txtcontent)
   document.querySelector("a").click();
-
 
   setTimeout(()=>{window.location.reload()},100)
   
