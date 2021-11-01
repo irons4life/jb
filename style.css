@@ -42,6 +42,9 @@ img{
     line-height: 20px;
 }
 
+#rlabel{
+    color:rgb(73, 255, 73);
+}
 
 #btn{
     padding: 2px 25px 2px 25px;
