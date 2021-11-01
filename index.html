@@ -17,7 +17,7 @@
             <label for="email">*</label>
             <input type="email" id="emailInput" placeholder=" Recipient's Email Address" required><br><br>
 
-            <label for="cc">(optional)</label>
+            <label for="cc" id="optional">(optional)</label>
             <input type="email" id="cc" placeholder=" CC (Email Address)"><br><br>
 
             <label for="load">*</label>
@@ -39,11 +39,11 @@
             <input type="text" id="deldate" placeholder=" Delivery Date & Time" required><br><br>
 
 <div id="three">
-    <input type="radio" id="pick-up" name="pudel" value="pickup" checked>
-    <label for="pick-up"> Pick up</label><br>
+    <input type="radio" name="pudel" id="pu" value="pickup" checked>
+    <label for="pickup" id="pickup">Pickup</label><br>
   
-    <input type="radio" id="delivery" name="pudel" value="delivery">
-    <label for="delivery">Delivery</label>
+    <input type="radio" name="pudel" id="del" value="delivery">
+    <label for="delivery" id="delivery">Delivery</label>
   </div>
 <div id="four">
     <label for="btn" name="submit"></label>

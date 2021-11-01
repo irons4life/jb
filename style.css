@@ -2,10 +2,9 @@ body{
     padding-top: 50px;
     padding-left: 20px;
     padding-bottom: 50px;
-    color:rgb(190, 190, 190);
-    background-color:#292929;
+    color:rgb(131, 250, 131);
+    background-color:#333333;
     justify-content: center;
-    font-weight: bolder;
     display: grid;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
@@ -18,15 +17,23 @@ label{
     padding-left: 20px;
     line-height: 28px;
     font-size: 16px;
+    font-weight: bold;
     
 }
+
 img{
-    block-size: 3em;
-    padding-right: 15px;
+    block-size: 2.6em;
+    margin-left: 18px;
 }
-#pick-up,#delivery{
-    margin-left:40px;   
-    color:dimgrey;
+#pickup,#delivery{
+     
+    color:rgb(252, 75, 62);
+    margin-left:-15px;
+}
+
+#pu,#del{
+    margin-left:51px;  
+    margin-top:8px;;
 }
 
 
@@ -34,16 +41,16 @@ img{
     padding: 2px 25px 2px 25px;
     font-size: 15px;
     font-weight: bold;
-    margin-left: 40px;
+    margin-left: 38px;
     display: inline-block;
 
 }
 #email,#btn{
     border-radius: 10px;
     border-width: 0.3em;
-    margin-top: 20px;
+    margin-top: 30px;
     font-weight: bold;
-    background-color: rgb(245, 221, 83);
+    background-color: rgb(255, 227, 68);
     color: black;
     border-color: black;
 }
@@ -51,36 +58,36 @@ img{
 #jbh{
 padding-top: 6px;
 padding-bottom: 40px;
-padding-left: 8px;;
+padding-left: 3px;;
 }
-
+::placeholder{
+    font-weight: lighter;
+}
 input{ 
-font-weight: bold;
 border-radius: 12px;
 color:rgb(15, 15, 15);
+font-weight: bold;
 background-color: rgb(255, 255, 255);
 display: inline-block;
-margin-right: 10px;
+margin-right: 6px;
 float:left;
 
 }
 
-::placeholder{
-font-weight: lighter;
-}
 
 label{
-font-weight:lighter;
-color:rgb(62, 138, 252);
+color:rgb(255, 75, 62);
 }
 
+#optional{
+    color:rgb(86, 164, 253);
+}
 #truck{
     padding-bottom: -20px;;
     animation-name: truck;
     animation-duration: 12000ms;
     animation-iteration-count: infinite;   
     display: none;
-
     
 }
 
