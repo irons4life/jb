@@ -31,8 +31,7 @@ img{
     margin-left: 6px;
 }
 #pickup,#delivery{
-     
-    color:rgb(252, 75, 62);
+    color:rgb(252, 147, 62);
     margin-left:-15px;
     line-height: 20px;
 }
@@ -82,7 +81,7 @@ float:left;
 
 
 label{
-color:rgb(255, 75, 62);
+color:rgb(253, 114, 59);
 }
 
 #optional{
