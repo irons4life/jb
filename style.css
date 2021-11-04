@@ -91,5 +91,6 @@ color:rgb(253, 114, 59);
 footer{
 color: rgb(194, 192, 192);
 bottom:10px;
-padding-left: 580px;
+justify-content: center;
+    display: grid;
 }
