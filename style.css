@@ -21,6 +21,7 @@ label{
     padding-left: 20px;
     line-height: 8px;
     font-size: 16px;
+    color:rgb(253, 114, 59);
 }
 
 #pickup,#delivery{
@@ -45,6 +46,7 @@ label{
     font-weight: bold;
     margin-left: 38px;
     display: inline-block;
+    cursor: pointer;
 
 }
 #email,#btn{
@@ -79,11 +81,6 @@ margin-right: 6px;
 float:left;
 }
 
-
-label{
-color:rgb(253, 114, 59);
-}
-
 #optional{
     color:rgb(86, 164, 253);
 }
@@ -92,7 +89,7 @@ footer{
 color: rgb(194, 192, 192);
 bottom:10px;
 justify-content: center;
-    display: grid;
+display: grid;
 }
 #tarea,#five{
     padding-top: 20px;
