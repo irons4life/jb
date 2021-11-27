@@ -46,8 +46,7 @@ label{
     font-weight: bold;
     margin-left: 38px;
     display: inline-block;
-    cursor: pointer;
-
+    cursor:pointer;
 }
 #email,#btn{
     border-radius: 10px;
