@@ -29,7 +29,7 @@ label{
     line-height: 20px;
 }
 
-#pu,#del{
+#pu,#del,#other{
     margin-left:51px;  
     margin-top:8px;
     line-height: 20px;
@@ -94,3 +94,8 @@ bottom:10px;
 justify-content: center;
     display: grid;
 }
+#tarea,#five{
+    padding-top: 20px;
+    border-radius: 12px;
+}
+

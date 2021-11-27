@@ -25,13 +25,12 @@ function addTask(e){
   link.innerHTML=`Load # ${load.value.toUpperCase()}</i>`
   document.getElementsByName("pudel").forEach(radio=>{
     if(radio.checked){
-      pudel=radio.value;
+      pudel=radio.value;}
+      if(pudel==="pickup"){
+        pudelbody="Please provide the ETA for PU or the check in/out times if already picked up and current location. In case of delay please provide the ETA and current location. ";
     }
-    if(pudel==="pickup"){
-      pudelbody="Please provide the ETA for PU or the check in/out times if already picked up and current location. In case of delay please provide the ETA and current location. ";
-    }
-    else{
-      pudelbody="Please provide the ETA for DEL or the check in/out times if already delivered. In case of delay please provide the ETA and current location."
+      else{
+        pudelbody="Please provide the ETA for DEL or the check in/out times if already delivered. In case of delay please provide the ETA and current location."
     }
   })
   
@@ -47,4 +46,8 @@ function addTask(e){
   
   e.preventDefault()
   
+}
+
+if (pudel==="other"){
+  document.getElementById("five").innerHTML='<textarea name="" id="tarea" cols="22" rows="5"></textarea>'
 }
