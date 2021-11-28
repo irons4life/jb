@@ -89,6 +89,10 @@ color: rgb(194, 192, 192);
 bottom:10px;
 justify-content: center;
 display: grid;
+font-weight: bold;
+}
+input:focus{
+    outline-color:rgb(73, 255, 73);
 }
 #tarea,#five{
     padding-top: 20px;
