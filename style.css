@@ -30,7 +30,7 @@ label{
     line-height: 20px;
 }
 
-#pu,#del,#other{
+#pu,#del{
     margin-left:51px;  
     margin-top:8px;
     line-height: 20px;
@@ -92,7 +92,7 @@ display: grid;
 font-weight: bold;
 }
 input:focus{
-    outline-color:rgb(73, 255, 73);
+    outline-color:rgb(253, 114, 59);
 }
 #tarea,#five{
     padding-top: 20px;
