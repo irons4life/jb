@@ -13,52 +13,57 @@
 </head>
 <body>
     
-    <div id="one">
+    <div id="container">
         <img src="./jbhunt.png" id="jbh">
         <form id="emailForm">
 
-            <label for="email">*</label>
+            <label for="email"></label>
             <input type="email" id="emailInput" placeholder=" Recipient's Email Address" required><br><br>
 
             <label for="cc" id="optional"></label>
             <input type="email" id="cc" placeholder=" CC (Optional) "><br><br>
 
-            <label for="load">*</label>
+            <label for="load"></label>
             <input type="text" id="load" placeholder=" Load Number" required><br><br>   
 
-            <label for="customer">*</label>
+            <label for="customer"></label>
             <input type="text" id="customer" placeholder=" Customer" required><br><br>
 
-            <label for="origin">*</label>
+            <label for="origin"></label>
             <input type="text" id="origin" placeholder=" Origin" required><br><br>
 
-            <label for="destination">*</label>
+            <label for="destination"></label>
             <input type="text" id="destination" placeholder=" Destination" required><br><br>
 
-            <label for="pudate">*</label>
+            <label for="pudate"></label>
             <input type="text" id="pudate" placeholder=" Pickup Date & Time" required><br><br>
 
-            <label for="deldate">*</label>
+            <label for="deldate"></label>
             <input type="text" id="deldate" placeholder=" Delivery Date & Time" required><br>
+
+            <div id="box">
+                <textarea name="" id="ta" cols="6" rows="3" placeholder="Add comments (optional)"></textarea>
+            </div> 
+            <div id="two">
+                <label for="pickup" name="pudel" class="pudel">
+                    <input type="radio" name="pudel" class="pudel" value="pickup" checked>Pickup
+                </label>
+                <span></span>
+                <label for="delivery" name="pudel" class="pudel">    
+                    <input type="radio" name="pudel" class="pudel" value="delivery">Delivery<br>
+                </label><span></span>
+            </div>
+            
         
-<div id="three">
-    <label for="pudel" name="pudel" id="rlabel"><br>
-        <input type="radio" name="pudel" id="pu" value="pickup" checked>Pickup<br>
-        <input type="radio" name="pudel" id="del" value="delivery">Delivery<br>
-    </label>
-<div id="five"></div>    
-  </div>
-<div id="four">
-    <label for="btn" name="submit"></label>
-    <input type="submit" id="btn" name="submit" value="Submit">
-</div>
-</div><br><br>
-<div id="foot">
-    <footer>Do not use this tool for escalations!</footer>
-</div>
-
-
+        <div id="three">
+            <label for="btn" name="submit"></label>
+            <input type="submit" id="btn" name="submit" value="Submit">
+        </div></form>
+        <form >
+            
         </form>
+    </div><br><br>
+        
     <script type="text/javascript" src="main.js"></script>
 </body>
 </html>

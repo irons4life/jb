@@ -1,101 +1,112 @@
 body{
-    padding-top: 40px;
-    color:rgb(131, 250, 131);
-    background-color:#333333;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    background: rgb(87, 86, 86);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 25px;
+    height: 690px;
 }
 
-#one{
-    line-height: 20px;
-    justify-content: center;
-    display: grid;
-}
-#three{
-    line-height: 25px;
-}
-a{
-    opacity: 0;
-    font-size: xx-small;
-}
-label{
-    padding-left: 20px;
-    line-height: 8px;
-    font-size: 16px;
-    color:rgb(253, 114, 59);
+img{
+    width:100%;
+    height:100%;
+    padding-bottom: 40px;
+    margin-right:-17px;
 }
 
-#pickup,#delivery{
-    color:rgb(252, 147, 62);
-    margin-left:-15px;
-    line-height: 20px;
+#container{
+    box-sizing: border-box;
+    background: rgb(44, 44, 44);
+
+    text-align: center;
+    display:block;
+    margin: auto;
+    width: 355px;
+    line-height: 1.0rem;
+    box-shadow: 10px 10px 15px rgb(13, 13, 13), -2px -2px 8px rgb(13, 13, 13);
+    padding:40px 90px;
+    border:2px solid rgb(255, 51, 51);
+    border-radius: 10px;
 }
 
-#pu,#del{
-    margin-left:51px;  
-    margin-top:8px;
-    line-height: 20px;
+input[type="text"],input[type="email"]{
+    border-radius: 10px;
+    display: inline;
+    width:100%;
 }
 
-#rlabel{
-    color:rgb(73, 255, 73);
+label[name="pudel"]{
+    display: inline-block;
+    color:rgb(105, 157, 253); 
+    margin: 15px 0px;
+    justify-content: left;
+    padding:0px 5px
 }
+
+div #two{
+    display: inline-block;
+    margin-top: 12px;
+    padding: 10px 0px;
+    width: 100%;
+
+}
+      
 
 #btn{
-    padding: 2px 25px 2px 25px;
-    font-size: 15px;
+    width:95%;
+    background: rgb(252, 231, 49);
+    border: 4px solid black;
     font-weight: bold;
-    margin-left: 38px;
-    display: inline-block;
-    cursor:pointer;
-}
-#email,#btn{
-    border-radius: 10px;
-    border-width: 0.3em;
-    margin-top: 30px;
-    font-weight: bold;
-    background-color: rgb(255, 227, 68);
-    color: black;
-    border-color: black;
+    font-size:15px;
+    line-height: 1.2rem;
+    border-radius: 13px;
+    
 }
 
-#jbh{
-padding-top: 6px;
-padding-bottom: 40px;
-padding-left: 3px;
-justify-content: center;
-display: grid;
-block-size: 2.9em;
-margin-left: 6px;
-}
-::placeholder{
-    font-weight: lighter;
-}
-input{ 
-border-radius: 12px;
-color:rgb(15, 15, 15);
-font-weight: bold;
-background-color: rgb(255, 255, 255);
-display: inline-block;
-margin-right: 6px;
-float:left;
+#btn,input.pudel:hover{
+    cursor: pointer;
 }
 
-#optional{
-    color:rgb(86, 164, 253);
+ 
+
+#ta{
+    min-width: 172px;
+    min-height: 50px;
+    max-width: 172px;
+    max-height: 50px;
+    width:100%;
+    border-radius:10px;
+    margin-top: 1.0rem;
+    font-family: inherit;
+}
+#ta,input:focus{
+    outline-color:rgb(105, 157, 253);
 }
 
-footer{
-color: rgb(194, 192, 192);
-bottom:10px;
-justify-content: center;
-display: grid;
-font-weight: bold;
-}
-input:focus{
-    outline-color:rgb(253, 114, 59);
-}
-#tarea,#five{
-    padding-top: 20px;
-    border-radius: 12px;
+div #three{
+    padding: 20px 10px;
 }
 
+#foot{
+    text-align:center;
+    color: rgb(255,255,255);
+    bottom:5px;
+    position: relative;
+    animation:foot 10s;
+    animation-iteration-count: infinite;
+}
+
+
+/* 
+@keyframes foot {
+        0%{
+            margin-left: 0px;
+        }
+        25%{
+            margin-left: -600px;
+        }
+        75%{
+            margin-left: 600px;
+        }
+        100%{
+            margin-left: 0px;
+        }
+} */
