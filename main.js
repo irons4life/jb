@@ -28,10 +28,10 @@ function addTask(e){
     if(radio.checked){
       pudel=radio.value;}
       if(pudel==="pickup"){
-        pudelbody="Please provide the ETA for PU or the check in/out times if already picked up and current location. In case of delay please provide the ETA and current location. ";
+        pudelbody="Please provide the ETA for PU or the check in/out times if already picked up and current location. In case of delay please provide the ETA, current location and reason of the delay. ";
     } 
       else if(pudel==="delivery") {
-        pudelbody="Please provide the ETA for DEL or the check in/out times if already delivered. In case of delay please provide the ETA and current location."
+        pudelbody="Please provide the ETA for DEL or the check in/out times if already delivered. In case of delay please provide the ETA, current location and reason of the delay ."
     } 
   })
   link.setAttribute("href","mailto:"+emailinput.value+"?subject=LOAD # "+load.value.toUpperCase()+
